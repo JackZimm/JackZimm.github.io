@@ -38,6 +38,13 @@
     
 }
 
+.bodysignup{
+    background-color: #3c454d;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    padding: 20px;
+}
+
 .row{
     display: table;
 }
@@ -115,3 +122,30 @@
     height: 2.5rem;
     background-color: grey;
   }
+
+.signup{
+    width: 300px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    background: grey;
+    padding: 20px;
+    margin: 8% auto;
+    text-align: center;
+}
+
+.input{
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0 10px 0;
+    width: 90%;
+    border: 1px solid black;
+    outline: none;
+}
+
+.sign-button{
+    background-color: #d67005;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    width: 50%;
+    border: 2px solid black;
+}
